@@ -1,0 +1,16 @@
+#!/bin/bash
+apt update -y
+apt install git -y
+apt install python2 -y
+apt install curl -y
+pip2 install lolcat
+apt install figlet -y
+cd ~
+git clone https://github.com/BloodySowmik/Xpinz
+cd Xpinz
+cp xpinz $PREFIX/bin/xpinz
+chmod +x $PREFIX/bin/xpinz
+figlet -ct -f slant "Done"
+echo "Run by \"xpinz\" Command." 
+sleep 2
+xdg-open https://facebook.com/FFsowmik

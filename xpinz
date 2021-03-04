@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/Xpinz
+bash Xpinz.sh
